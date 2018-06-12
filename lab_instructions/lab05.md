@@ -11,8 +11,8 @@
 
 ## I/O *file* teks
 
-Untuk dapat membaca atau menulis berkas (*file*), kita bisa menggunakan fungsi:
-`open(nama_file, mode)`
+Untuk dapat membaca atau menulis **berkas *(file)***, kita bisa menggunakan
+fungsi `open(nama_file, mode)`.
 
 Contoh:
 
@@ -36,13 +36,12 @@ Keterangan:
 | `'a'`  | Hanya tulis  | Isi dibiarkan   | Buat dan buka baru    | Akhir         |
 | `'r+'` | Baca & tulis | Isi dibiarkan   | **Error**             | Awal          |
 
-Untuk mode lainnya, silakan lihat di [dokumentasi fungsi `open`][python docs1]
+Untuk mode lainnya, silakan lihat di [dokumentasi fungsi `open`][open docs].
 
 <br>
 
 Untuk menambahkan *string* ke dalam file yang akan ditulis, kalian bisa
-menggunakan fungsi:
-`print(sebuah_string, file=objek_file)`
+menggunakan fungsi `print(sebuah_string, file=objek_file)`.
 
 Contoh:
 
@@ -98,7 +97,7 @@ Setiap *error* dalam Python memiliki nama, misalnya `IOError`, `ValueError`,
 
 ### Perintah `try` dan `except`
 
-Berikut adalah contoh bentuk blok `try`/`except` yang dapat digunakan untuk
+Berikut adalah contoh bentuk blok **`try`/`except`** yang dapat digunakan untuk
 mencegah berhentinya program ketika terjadi *error*.
 
 ```python
@@ -123,17 +122,17 @@ Keterangan:
   ditangani oleh blok `except:` tersebut. Meski bisa dijalankan, hal ini
   **sangat tidak disarankan** karena akan membuat *exception* sulit dilacak.
 - untuk nama-nama *error* yang tersedia secara bawaan dalam Python, silakan
-  cek ["Python documentation: Built-in Exceptions"][python docs2].
+  cek [dokumentasi Python][exception docs].
 
 <br>
 
 ### Klausa `else` dan `finally`
 
-Mirip seperti pada perulangan (*loop*), klausa `else` dapat digunakan untuk
+Mirip seperti pada perulangan (*loop*), klausa **`else`** dapat digunakan untuk
 blok `try`/`except`, dan hanya akan dijalankan apabila tidak terjadi *error*
 dalam blok `try`.
 
-Sedangkan klausa `finally` akan **selalu** dijalankan, apa pun yang terjadi
+Sedangkan klausa **`finally`** akan **selalu** dijalankan, apa pun yang terjadi
 dalam blok `try`. Klausa `finally` biasanya digunakan untuk *cleanup*.
 
 Contoh:
@@ -177,13 +176,13 @@ with open("nama_file.txt") as objek_file:
 
 Diadaptasi dari:
 
-- `Lab 4 Dasar-Dasar Pemrograman 1 - REVISI.pdf` buatan
-  **NN**, **WP**, **YE**, dan **AH**
-- `ddp1-17gasal-06.pdf` dan `ddp1-17gasal-14.pdf` buatan
-  **Adila Alfa Krisnadhi, Ph.D.**
+- `Lab 4 Dasar-Dasar Pemrograman 1 - REVISI.pdf`
+  buatan **NN**, **WP**, **YE**, dan **AH**
+- `ddp1-17gasal-06.pdf` dan `ddp1-17gasal-14.pdf`
+  buatan **Adila Alfa Krisnadhi, Ph.D.**
 
 dengan beberapa perubahan.
 
-[python docs1]: https://docs.python.org/3/library/functions.html#open
+[open docs]: https://docs.python.org/3/library/functions.html#open
 
-[python docs2]: https://docs.python.org/3/library/exceptions.html
+[exception docs]: https://docs.python.org/3/library/exceptions.html

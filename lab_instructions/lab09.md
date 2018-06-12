@@ -116,8 +116,8 @@ cartilage
 
 ## Fungsi `super()`
 
-Dengan fungsi `super()`, kita dapat mengakses isi *superclass* secara utuh
-sebelum di-*override* oleh *subclass*.  
+**Fungsi `super()`** memungkinkan kita untuk mengakses isi *superclass* secara
+utuh sebelum di-*override* oleh *subclass*.  
 Perhatikan contoh berikut.
 
 ```python
@@ -154,7 +154,7 @@ The fish can swim backwards.
 
 ## *Multiple inheritance*
 
-Sebuah *class* dapat mewarisi sifat dari lebih dari satu *superclass*.  
+Sebuah *class* dapat **mewarisi sifat dari lebih dari satu *superclass***.  
 Perhatikan contoh berikut.
 
 ```python
@@ -207,7 +207,7 @@ Inheritance berguna untuk:
 
 Diadaptasi dari:
 
-- `Lab 09.pdf`
+- `Lab 09.pdf` buatan beberapa asisten dosen DDP1 2017 semester ganjil
 - `ddp1-17gasal-11.pdf` buatan **Adila Alfa Krisnadhi, Ph.D.**
 
 dengan beberapa perubahan.
